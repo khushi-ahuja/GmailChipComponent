@@ -1,0 +1,98 @@
+
+.dropdown_dummy_div {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* z-index: 1; */
+    /* background-color: #f00; */
+    left: 0;
+    top: 0;
+  }
+.dropdown-menu{
+    height: 35px;
+    width: 150px;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    align-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 300px;
+}
+
+.option{
+    cursor: pointer;
+    padding: 0.4rem 0.6rem;
+    appearance: none;
+    outline: 0;
+    border-bottom: 1.5px solid rgb(221 221 221);
+}
+
+.option:hover{
+    background-color: #ececec;
+}
+
+.list{
+    position:absolute;
+    z-index: 1;
+    list-style: none;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: 0;
+    box-shadow: 1px 1px 4px #ccc;
+    background: white;
+    border-radius:  8px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.dropdown_header{
+    font-size: 0.9rem;
+}
+
+.dropdown_container{
+    display: flex;
+    flex-direction: column; 
+    margin-right: 10px;
+    position: relative;
+}
+
+.text_container{
+    text-overflow: ellipsis;
+     /* float: left;  */
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 0.2px;
+}
+.seachInp{
+    width: 85%;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* custom scroll bar for navbar only */
+
+/* width */
+.dropdown_container ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+.dropdown_container ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+.dropdown_container ::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+.dropdown_container ::-webkit-scrollbar-thumb:hover {
+    background: #bcbcbc; 
+  }

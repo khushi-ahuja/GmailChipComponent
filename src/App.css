@@ -1,0 +1,55 @@
+/* comon css */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.blue{
+    color: blue;
+}
+.textCenter{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.mx{
+    margin: 0 8px;
+}
+.fontS{
+    font-size: 0.8rem;
+}
+.labelGrey{
+    color: #757474;
+}
+.pointer{
+    cursor: pointer;
+}
+/* chip component */
+
+.mainInputContainer{
+    margin: 1px auto;
+    width: 70%;
+    padding: 8px;
+    border-bottom: 2px solid blue;
+}
+.chip{
+    padding: 2px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+.chip.active{
+    /* make it blue */
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+.chipImg{
+    padding: 5px;
+    width: 19px;
+    border-radius: 50%;
+    color: white;
+    background-color: brown;
+}
